@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bv5-bW-cR9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JFh-Q0-VVn">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -60,10 +60,9 @@
         <!--Navigation Controller-->
         <scene sceneID="uF4-v7-fyB">
             <objects>
-                <navigationController id="LPv-G5-tXt" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="LPv-G5-tXt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="house" catalog="system" selectedImage="house.fill" id="fx4-7Y-MTI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="88i-BA-Muq">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -178,16 +177,16 @@
             </objects>
             <point key="canvasLocation" x="-6" y="153"/>
         </scene>
-        <!--home-->
+        <!--Main View Controller-->
         <scene sceneID="4bw-Yh-Inh">
             <objects>
-                <viewController id="JFh-Q0-VVn" sceneMemberID="viewController">
+                <viewController id="JFh-Q0-VVn" customClass="MainViewController" customModule="_st_MakeAnyView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qKH-ul-h8W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Hnw-9K-Yeb">
-                                <rect key="frame" x="5" y="88" width="404" height="35"/>
+                                <rect key="frame" x="8" y="44" width="398" height="35"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7V-Ic-yNg">
                                         <rect key="frame" x="0.0" y="0.0" width="38" height="35"/>
@@ -199,13 +198,13 @@
                                         <state key="normal" image="Image"/>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이고진과 7월 다이어트😎" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MX6-Pf-XdC">
-                                        <rect key="frame" x="44" y="0.0" width="288" height="35"/>
+                                        <rect key="frame" x="44" y="0.0" width="282" height="35"/>
                                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViU-I5-Q0Q">
-                                        <rect key="frame" x="338" y="0.0" width="30" height="35"/>
+                                        <rect key="frame" x="332" y="0.0" width="30" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="Y4Y-gS-TYD"/>
                                         </constraints>
@@ -213,7 +212,7 @@
                                         <buttonConfiguration key="configuration" style="plain" image="bag.fill.badge.plus" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJy-nP-bif">
-                                        <rect key="frame" x="374" y="0.0" width="30" height="35"/>
+                                        <rect key="frame" x="368" y="0.0" width="30" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="oEI-VA-aAQ"/>
                                         </constraints>
@@ -222,23 +221,76 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="center" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="8xR-1R-0US">
+                                <rect key="frame" x="14" y="91" width="386" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="홈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjc-Yk-pHt">
+                                        <rect key="frame" x="0.0" y="0.0" width="15" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="오특" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGW-5g-KG5">
+                                        <rect key="frame" x="63" y="0.0" width="29.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="신상" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdS-Gu-LhV">
+                                        <rect key="frame" x="133.5" y="0.0" width="29.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="랭킹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayM-IK-zXH">
+                                        <rect key="frame" x="204" y="0.0" width="29.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="기획전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpa-fX-0Od">
+                                        <rect key="frame" x="267" y="0.0" width="44.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="이벤트" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQG-al-Don">
+                                        <rect key="frame" x="341.5" y="0.0" width="44.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1470.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TjX-d3-O6e">
+                                <rect key="frame" x="0.0" y="123.5" width="414" height="295.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dgn-VH-YKJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Dgn-VH-YKJ" firstAttribute="trailing" secondItem="Hnw-9K-Yeb" secondAttribute="trailing" constant="5" id="DAn-j1-2a8"/>
-                            <constraint firstItem="Hnw-9K-Yeb" firstAttribute="leading" secondItem="Dgn-VH-YKJ" secondAttribute="leading" constant="5" id="iaB-97-utX"/>
-                            <constraint firstItem="Hnw-9K-Yeb" firstAttribute="top" secondItem="Dgn-VH-YKJ" secondAttribute="top" id="tHY-5L-BNq"/>
+                            <constraint firstItem="TjX-d3-O6e" firstAttribute="height" secondItem="qKH-ul-h8W" secondAttribute="height" multiplier="0.33" id="4sd-PS-eLz"/>
+                            <constraint firstItem="8xR-1R-0US" firstAttribute="leading" secondItem="Dgn-VH-YKJ" secondAttribute="leading" constant="14" id="Djz-8R-CXn"/>
+                            <constraint firstItem="Dgn-VH-YKJ" firstAttribute="trailing" secondItem="8xR-1R-0US" secondAttribute="trailing" constant="14" id="G1Z-Pq-R6x"/>
+                            <constraint firstItem="Hnw-9K-Yeb" firstAttribute="top" secondItem="Dgn-VH-YKJ" secondAttribute="top" id="HD4-Mx-Y6D"/>
+                            <constraint firstItem="TjX-d3-O6e" firstAttribute="leading" secondItem="Dgn-VH-YKJ" secondAttribute="leading" id="O45-HA-xko"/>
+                            <constraint firstItem="TjX-d3-O6e" firstAttribute="top" secondItem="8xR-1R-0US" secondAttribute="bottom" constant="12" id="aED-bm-5kd"/>
+                            <constraint firstItem="8xR-1R-0US" firstAttribute="top" secondItem="Hnw-9K-Yeb" secondAttribute="bottom" constant="12" id="awz-Vd-SoL"/>
+                            <constraint firstItem="TjX-d3-O6e" firstAttribute="trailing" secondItem="Dgn-VH-YKJ" secondAttribute="trailing" id="f1W-YG-ggv"/>
+                            <constraint firstItem="Hnw-9K-Yeb" firstAttribute="leading" secondItem="Dgn-VH-YKJ" secondAttribute="leading" constant="8" id="uvw-VG-QSK"/>
+                            <constraint firstItem="Dgn-VH-YKJ" firstAttribute="trailing" secondItem="Hnw-9K-Yeb" secondAttribute="trailing" constant="8" id="wzF-at-LD5"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="home" id="GCY-WR-Hwz"/>
+                    <navigationItem key="navigationItem" id="GCY-WR-Hwz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAv-yt-QDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="769.56521739130437" y="1530.8035714285713"/>
+            <point key="canvasLocation" x="1002.8985507246377" y="1516.7410714285713"/>
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_1470.jpg" width="414" height="314"/>
         <image name="Image" width="282" height="246"/>
         <image name="bag" catalog="system" width="128" height="128"/>
         <image name="bag.fill.badge.plus" catalog="system" width="128" height="128"/>
@@ -252,6 +304,9 @@
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
