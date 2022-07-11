@@ -16,6 +16,11 @@
 		9B2EBEBF2879971A00FBACCF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2EBEBE2879971A00FBACCF /* MainViewController.swift */; };
 		9B2EBEC128799D7F00FBACCF /* IMG_1469.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EBEC028799D7F00FBACCF /* IMG_1469.JPG */; };
 		9B2EBEC328799D8700FBACCF /* IMG_1470.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2EBEC228799D8700FBACCF /* IMG_1470.jpg */; };
+		9BD13C71287C3753000A7915 /* IMG_1479.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD13C70287C3753000A7915 /* IMG_1479.jpg */; };
+		9BD13C75287C4A21000A7915 /* IMG_1481.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD13C72287C4A21000A7915 /* IMG_1481.jpg */; };
+		9BD13C76287C4A21000A7915 /* IMG_1482.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD13C73287C4A21000A7915 /* IMG_1482.jpg */; };
+		9BD13C77287C4A21000A7915 /* IMG_1483.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD13C74287C4A21000A7915 /* IMG_1483.jpg */; };
+		9BD13C79287C4AEC000A7915 /* IMG_1484.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BD13C78287C4AEC000A7915 /* IMG_1484.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		9B2EBEBE2879971A00FBACCF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9B2EBEC028799D7F00FBACCF /* IMG_1469.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1469.JPG; path = ../../../../../Downloads/IMG_1469.JPG; sourceTree = "<group>"; };
 		9B2EBEC228799D8700FBACCF /* IMG_1470.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1470.jpg; path = ../../../../../Downloads/IMG_1470.jpg; sourceTree = "<group>"; };
+		9BD13C70287C3753000A7915 /* IMG_1479.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1479.jpg; path = ../../../../../Downloads/IMG_1479.jpg; sourceTree = "<group>"; };
+		9BD13C72287C4A21000A7915 /* IMG_1481.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1481.jpg; path = ../../../../../Downloads/IMG_1481.jpg; sourceTree = "<group>"; };
+		9BD13C73287C4A21000A7915 /* IMG_1482.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1482.jpg; path = ../../../../../Downloads/IMG_1482.jpg; sourceTree = "<group>"; };
+		9BD13C74287C4A21000A7915 /* IMG_1483.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1483.jpg; path = ../../../../../Downloads/IMG_1483.jpg; sourceTree = "<group>"; };
+		9BD13C78287C4AEC000A7915 /* IMG_1484.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1484.jpg; path = ../../../../../Downloads/IMG_1484.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,11 @@
 				9B2EBEB828796EBC00FBACCF /* Info.plist */,
 				9B2EBEC028799D7F00FBACCF /* IMG_1469.JPG */,
 				9B2EBEC228799D8700FBACCF /* IMG_1470.jpg */,
+				9BD13C70287C3753000A7915 /* IMG_1479.jpg */,
+				9BD13C72287C4A21000A7915 /* IMG_1481.jpg */,
+				9BD13C73287C4A21000A7915 /* IMG_1482.jpg */,
+				9BD13C74287C4A21000A7915 /* IMG_1483.jpg */,
+				9BD13C78287C4AEC000A7915 /* IMG_1484.jpg */,
 			);
 			path = 1st_MakeAnyView;
 			sourceTree = "<group>";
@@ -134,10 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD13C75287C4A21000A7915 /* IMG_1481.jpg in Resources */,
 				9B2EBEB728796EBC00FBACCF /* LaunchScreen.storyboard in Resources */,
 				9B2EBEC328799D8700FBACCF /* IMG_1470.jpg in Resources */,
 				9B2EBEB428796EBC00FBACCF /* Assets.xcassets in Resources */,
+				9BD13C77287C4A21000A7915 /* IMG_1483.jpg in Resources */,
 				9B2EBEB228796EB900FBACCF /* Main.storyboard in Resources */,
+				9BD13C79287C4AEC000A7915 /* IMG_1484.jpg in Resources */,
+				9BD13C71287C3753000A7915 /* IMG_1479.jpg in Resources */,
+				9BD13C76287C4A21000A7915 /* IMG_1482.jpg in Resources */,
 				9B2EBEC128799D7F00FBACCF /* IMG_1469.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
