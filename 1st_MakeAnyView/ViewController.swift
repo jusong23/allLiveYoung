@@ -13,12 +13,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         self.grayView?.layer.borderColor = UIColor.darkGray.cgColor
-        
         self.grayView?.layer.borderWidth = 0.4
-        
         self.grayView?.layer.cornerRadius =  5
     }
-
-
 }
 
