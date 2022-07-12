@@ -9,9 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var grayView: UIView?
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.grayView?.layer.borderColor = UIColor.darkGray.cgColor
+        
+        self.grayView?.layer.borderWidth = 0.4
+        
+        self.grayView?.layer.cornerRadius =  5
     }
 
 
