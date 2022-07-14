@@ -97,14 +97,14 @@
             <objects>
                 <viewController id="EPW-B7-Z3N" customClass="ViewController" customModule="_st_MakeAnyView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A7Y-TC-n0i">
-                        <rect key="frame" x="0.0" y="0.0" width="415" height="2835"/>
+                        <rect key="frame" x="0.0" y="0.0" width="415" height="2533"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TI8-3P-Hcy">
-                                <rect key="frame" x="0.0" y="44" width="415" height="2791"/>
+                                <rect key="frame" x="0.0" y="44" width="415" height="2489"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mU-zh-hAY">
-                                        <rect key="frame" x="0.0" y="0.0" width="415" height="4791"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="415" height="4489"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="NSG-QH-OAZ">
                                                 <rect key="frame" x="8" y="0.0" width="399" height="35"/>
@@ -118,12 +118,10 @@
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" image="Image"/>
                                                     </button>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이고진과 7월 다이어트😎" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="phV-pR-Iqo">
+                                                    <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="이고진과 함께 7월 다이어트😎" translatesAutoresizingMaskIntoConstraints="NO" id="rYM-9k-btz">
                                                         <rect key="frame" x="44" y="0.0" width="283" height="35"/>
-                                                        <color key="backgroundColor" systemColor="systemGray6Color"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
-                                                    </textField>
+                                                    </searchBar>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0C-ea-kBD">
                                                         <rect key="frame" x="333" y="0.0" width="30" height="35"/>
                                                         <constraints>
@@ -892,14 +890,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="MyPage" id="ueB-Va-gLQ"/>
-                    <size key="freeformSize" width="415" height="2835"/>
+                    <size key="freeformSize" width="415" height="2533"/>
                     <connections>
                         <outlet property="grayView" destination="wk4-BI-Rno" id="IvH-GG-BoX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ocb-SN-iiN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1658.6956521739132" y="1810.3794642857142"/>
+            <point key="canvasLocation" x="1858.6956521739132" y="1213.7276785714284"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LNp-mC-Yh8">
@@ -1032,9 +1030,6 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
