@@ -97,14 +97,14 @@
             <objects>
                 <viewController id="EPW-B7-Z3N" customClass="ViewController" customModule="_st_MakeAnyView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A7Y-TC-n0i">
-                        <rect key="frame" x="0.0" y="0.0" width="415" height="2168"/>
+                        <rect key="frame" x="0.0" y="0.0" width="415" height="747"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TI8-3P-Hcy">
-                                <rect key="frame" x="0.0" y="44" width="415" height="2124"/>
+                                <rect key="frame" x="0.0" y="44" width="415" height="703"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mU-zh-hAY">
-                                        <rect key="frame" x="0.0" y="0.0" width="415" height="4124"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7mU-zh-hAY">
+                                        <rect key="frame" x="0.0" y="0.0" width="415" height="2300"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="NSG-QH-OAZ">
                                                 <rect key="frame" x="8" y="0.0" width="399" height="35"/>
@@ -466,17 +466,10 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anj-Sh-6ii">
                                                                 <rect key="frame" x="98.5" y="0.0" width="55" height="17"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="32,000">
+                                                                    <fragment content="32,000원">
                                                                         <attributes>
                                                                             <color key="NSColor" systemColor="systemGray2Color"/>
                                                                             <font key="NSFont" metaFont="system"/>
-                                                                            <integer key="NSStrikethrough" value="1"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content="원">
-                                                                        <attributes>
-                                                                            <color key="NSColor" systemColor="systemGray2Color"/>
-                                                                            <font key="NSFont" size="13" name=".AppleSDGothicNeoI-Regular"/>
                                                                             <integer key="NSStrikethrough" value="1"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -568,17 +561,10 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNu-UX-em8">
                                                                 <rect key="frame" x="90.5" y="0.0" width="53" height="17"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="14,800">
+                                                                    <fragment content="14,800원">
                                                                         <attributes>
                                                                             <color key="NSColor" systemColor="systemGray2Color"/>
                                                                             <font key="NSFont" metaFont="system"/>
-                                                                            <integer key="NSStrikethrough" value="1"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content="원">
-                                                                        <attributes>
-                                                                            <color key="NSColor" systemColor="systemGray2Color"/>
-                                                                            <font key="NSFont" size="13" name=".AppleSDGothicNeoI-Regular"/>
                                                                             <integer key="NSStrikethrough" value="1"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -907,18 +893,10 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCv-mC-KLQ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="41.5" height="12"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="19,000">
+                                                                    <fragment content="19,000원">
                                                                         <attributes>
                                                                             <color key="NSColor" systemColor="systemGray2Color"/>
                                                                             <font key="NSFont" metaFont="system" size="10"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                            <integer key="NSStrikethrough" value="1"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content="원">
-                                                                        <attributes>
-                                                                            <color key="NSColor" systemColor="systemGray2Color"/>
-                                                                            <font key="NSFont" size="10" name=".AppleSDGothicNeoI-Regular"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                             <integer key="NSStrikethrough" value="1"/>
                                                                         </attributes>
@@ -1161,17 +1139,10 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjU-0P-wTs">
                                                                 <rect key="frame" x="0.0" y="0.0" width="42" height="12"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="14,800">
+                                                                    <fragment content="14,800원">
                                                                         <attributes>
                                                                             <color key="NSColor" systemColor="systemGray2Color"/>
                                                                             <font key="NSFont" metaFont="system" size="10"/>
-                                                                            <integer key="NSStrikethrough" value="1"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content="원">
-                                                                        <attributes>
-                                                                            <color key="NSColor" systemColor="systemGray2Color"/>
-                                                                            <font key="NSFont" size="10" name=".AppleSDGothicNeoI-Regular"/>
                                                                             <integer key="NSStrikethrough" value="1"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -1318,18 +1289,10 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgR-ba-8rJ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="43" height="12"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="35,000">
+                                                                    <fragment content="35,000원">
                                                                         <attributes>
                                                                             <color key="NSColor" systemColor="systemGray2Color"/>
                                                                             <font key="NSFont" metaFont="system" size="10"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                            <integer key="NSStrikethrough" value="1"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content="원">
-                                                                        <attributes>
-                                                                            <color key="NSColor" systemColor="systemGray2Color"/>
-                                                                            <font key="NSFont" size="10" name=".AppleSDGothicNeoI-Regular"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                             <integer key="NSStrikethrough" value="1"/>
                                                                         </attributes>
@@ -1423,6 +1386,13 @@
                                                     <constraint firstAttribute="height" constant="35" id="nuw-vM-HpR"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBv-hn-Hbt">
+                                                <rect key="frame" x="0.0" y="2773" width="415" height="300"/>
+                                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="U69-gY-HPd"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -1441,6 +1411,7 @@
                                             <constraint firstItem="4uh-k0-8ax" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" id="5T2-eZ-wL4"/>
                                             <constraint firstItem="now-k1-wse" firstAttribute="top" secondItem="B7P-hG-fE5" secondAttribute="bottom" constant="10" id="67b-W2-H3q"/>
                                             <constraint firstItem="YAD-dm-qZa" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" id="6PL-9Z-VLR"/>
+                                            <constraint firstItem="XBv-hn-Hbt" firstAttribute="top" secondItem="Zuu-e1-uPL" secondAttribute="bottom" constant="15" id="6TL-dp-ktX"/>
                                             <constraint firstAttribute="trailing" secondItem="5WL-3Y-efY" secondAttribute="trailing" constant="10" id="70M-5A-a6m"/>
                                             <constraint firstItem="UuE-4z-GNL" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" constant="10" id="7Wt-Yr-Kq9"/>
                                             <constraint firstItem="keQ-1B-icO" firstAttribute="top" secondItem="hPN-Gp-8Op" secondAttribute="bottom" constant="7.5" id="8DR-4s-P0p"/>
@@ -1510,8 +1481,11 @@
                                             <constraint firstItem="B7P-hG-fE5" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" id="lQw-a5-8Nx"/>
                                             <constraint firstItem="D7c-Pc-nSr" firstAttribute="top" secondItem="4uh-k0-8ax" secondAttribute="bottom" id="lp5-lX-bxV"/>
                                             <constraint firstAttribute="trailing" secondItem="7uB-nB-ZhS" secondAttribute="trailing" id="lxw-YB-tNo"/>
+                                            <constraint firstAttribute="trailing" secondItem="XBv-hn-Hbt" secondAttribute="trailing" id="nyh-K1-irv"/>
+                                            <constraint firstItem="XBv-hn-Hbt" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" id="nzU-Jy-7da"/>
                                             <constraint firstItem="fyj-jd-2Ob" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" id="pyj-mi-Hkw"/>
                                             <constraint firstItem="5WL-3Y-efY" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" constant="10" id="qCV-ki-onF"/>
+                                            <constraint firstItem="XBv-hn-Hbt" firstAttribute="width" secondItem="7mU-zh-hAY" secondAttribute="width" id="qaV-pu-dpA"/>
                                             <constraint firstItem="wk4-BI-Rno" firstAttribute="leading" secondItem="7mU-zh-hAY" secondAttribute="leading" constant="13" id="rl0-4U-9ja"/>
                                             <constraint firstItem="t2k-hI-mJo" firstAttribute="leading" secondItem="D7c-Pc-nSr" secondAttribute="trailing" id="s8J-zu-TTQ"/>
                                             <constraint firstAttribute="trailing" secondItem="AMd-jL-Y3h" secondAttribute="trailing" constant="10" id="sZn-x9-08W"/>
@@ -1527,11 +1501,9 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="7mU-zh-hAY" firstAttribute="trailing" secondItem="TI8-3P-Hcy" secondAttribute="trailing" id="DQj-4t-hnn"/>
-                                    <constraint firstItem="7mU-zh-hAY" firstAttribute="height" secondItem="TI8-3P-Hcy" secondAttribute="height" constant="2000" id="MML-hp-Pab"/>
-                                    <constraint firstAttribute="bottom" secondItem="7mU-zh-hAY" secondAttribute="bottom" id="PN8-nL-s89"/>
+                                    <constraint firstItem="7mU-zh-hAY" firstAttribute="height" secondItem="TI8-3P-Hcy" secondAttribute="height" constant="2150" id="MML-hp-Pab"/>
                                     <constraint firstItem="7mU-zh-hAY" firstAttribute="bottom" secondItem="TI8-3P-Hcy" secondAttribute="bottom" id="Y1S-VK-YxT"/>
                                     <constraint firstItem="7mU-zh-hAY" firstAttribute="top" secondItem="TI8-3P-Hcy" secondAttribute="top" id="exC-xF-mqV"/>
-                                    <constraint firstItem="7mU-zh-hAY" firstAttribute="top" secondItem="TI8-3P-Hcy" secondAttribute="top" id="ige-sN-dpb"/>
                                     <constraint firstItem="7mU-zh-hAY" firstAttribute="leading" secondItem="TI8-3P-Hcy" secondAttribute="leading" id="lir-Bn-ICX"/>
                                     <constraint firstAttribute="trailing" secondItem="7mU-zh-hAY" secondAttribute="trailing" id="unS-He-swQ"/>
                                     <constraint firstItem="7mU-zh-hAY" firstAttribute="leading" secondItem="TI8-3P-Hcy" secondAttribute="leading" id="wBA-jo-pTW"/>
@@ -1548,10 +1520,11 @@
                             <constraint firstItem="TI8-3P-Hcy" firstAttribute="trailing" secondItem="Lc6-dw-cnx" secondAttribute="trailing" id="VEj-54-Qtr"/>
                             <constraint firstAttribute="bottom" secondItem="TI8-3P-Hcy" secondAttribute="bottom" id="mWL-Gq-pqS"/>
                             <constraint firstItem="TI8-3P-Hcy" firstAttribute="leading" secondItem="Lc6-dw-cnx" secondAttribute="leading" id="qff-kx-NN0"/>
+                            <constraint firstAttribute="bottom" secondItem="TI8-3P-Hcy" secondAttribute="bottom" id="wS3-uM-bYZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="MyPage" id="ueB-Va-gLQ"/>
-                    <size key="freeformSize" width="415" height="2168"/>
+                    <size key="freeformSize" width="415" height="747"/>
                     <connections>
                         <outlet property="grayView" destination="wk4-BI-Rno" id="IvH-GG-BoX"/>
                         <outlet property="grayView2" destination="Zuu-e1-uPL" id="0ZO-tg-TSa"/>
@@ -1559,7 +1532,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ocb-SN-iiN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1858.6956521739132" y="1091.5178571428571"/>
+            <point key="canvasLocation" x="1858.6956521739132" y="504.57589285714283"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LNp-mC-Yh8">
@@ -1696,6 +1669,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
