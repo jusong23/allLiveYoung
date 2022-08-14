@@ -20,5 +20,6 @@
 
 ### 📱 최종 구현 영상
 
-![1차_최종구현_AdobeExpress](https://user-images.githubusercontent.com/74387813/184535224-77b6f006-7944-4152-a820-3583ba389e8c.gif)
+
+<img src="https://user-images.githubusercontent.com/74387813/184535224-77b6f006-7944-4152-a820-3583ba389e8c.gif">
 
