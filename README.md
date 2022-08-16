@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/74387813/184535472-d1430b43-92ee-4b0c-
 
 ---
 
-### Gotten & Used Component
+### 🧠 Gotten & Used Component
 
 1. Tabbar Controller
 2. 이미지 파일 Asset에 첨부 후 Button 이미지로 쓰기
@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/74387813/184535472-d1430b43-92ee-4b0c-
 
 ---
 
-### Ref. link
+### 🧑‍💻 Ref. link
 
 - 정대리 AutoLayout 강좌 : [https://youtu.be/1McZ6ukrmFo](https://youtu.be/1McZ6ukrmFo)
 - iOS Academy layout 강좌 : [https://youtu.be/3y23UebzCYw](https://youtu.be/3y23UebzCYw)
